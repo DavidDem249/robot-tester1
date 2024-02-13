@@ -88,7 +88,7 @@ commanderProduit
 
     # Cocher la case checkbox
     Capture Page Screenshot
-    Wait Until Element Is Visible   xpath://*[@id="checkout-form"]/div/div[5]/label/span[1]
+    Wait Until Element Is Visible   xpath://*[@id="checkout-form"]/div/div[5]/label/span[1]     timeout=10s
     Click Element       xpath://*[@id="checkout-form"]/div/div[5]/label/span[1]
     # Bouton 'Compléter la commande'
     Click Element       xpath://*[@id="checkout-form"]/div/div[6]/div[2]/button
